@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="cd91f7a1-76d6-4759-a4ea-5169b55c3e87" name="EJEAJOS@E76431509D484F 2014-04-13 15:35:49" runUser="ERICSSON\EJEAJOS" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ec3d7df0-bd32-4fdb-a1dc-62042eae7c6d">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="EJEAJOS_E76431509D484F 2014-04-13 15_35_49">
+      <DeploymentItem filename="C:\Users\EJEAJOS\Documents\GitHub\EulerProject\EulerProject\bin\Debug\EulerProject.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-04-13T15:35:49.5032963-07:00" queuing="2014-04-13T15:35:54.4245777-07:00" start="2014-04-13T15:35:55.1956218-07:00" finish="2014-04-13T15:36:16.4288363-07:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="5" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="4" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="E76431509D484F" outcome="Error" timestamp="2014-04-13T15:36:16.4108353-07:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SumEvenFibonacciNumbers_BelowFourMil_Test" storage="c:\users\ejeajos\documents\github\eulerproject\eulerprojecttest\bin\debug\eulerprojecttest.dll" id="56b27b86-f8e3-2138-0ce1-fbcfcb027ef9">
+      <Execution id="a599fa12-bfd1-44fb-bbfc-6a7fd444c048" />
+      <TestMethod codeBase="C:/Users/EJEAJOS/Documents/GitHub/EulerProject/EulerProjectTest/bin/Debug/EulerProjectTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EulerProjectTest.Problem2Test, EulerProjectTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SumEvenFibonacciNumbers_BelowFourMil_Test" />
+    </UnitTest>
+    <UnitTest name="SumMultiplesTest_Below10" storage="c:\users\ejeajos\documents\github\eulerproject\eulerprojecttest\bin\debug\eulerprojecttest.dll" id="e9e31b35-6659-e401-2314-39e202dd26e0">
+      <Execution id="eb5c9266-00a7-46a4-b5bb-94ee1e107721" />
+      <TestMethod codeBase="C:/Users/EJEAJOS/Documents/GitHub/EulerProject/EulerProjectTest/bin/Debug/EulerProjectTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EulerProjectTest.Problem1Test, EulerProjectTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SumMultiplesTest_Below10" />
+    </UnitTest>
+    <UnitTest name="SumEvenFibonacciNumbers_BelowHundred_Test" storage="c:\users\ejeajos\documents\github\eulerproject\eulerprojecttest\bin\debug\eulerprojecttest.dll" id="1704ccca-9ca4-d6ed-0255-d2f53aa89a3b">
+      <Execution id="297dd6b7-fed5-4ee9-bd75-669b442938e0" />
+      <TestMethod codeBase="C:/Users/EJEAJOS/Documents/GitHub/EulerProject/EulerProjectTest/bin/Debug/EulerProjectTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EulerProjectTest.Problem2Test, EulerProjectTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SumEvenFibonacciNumbers_BelowHundred_Test" />
+    </UnitTest>
+    <UnitTest name="SumMultiplesTest_Below1000" storage="c:\users\ejeajos\documents\github\eulerproject\eulerprojecttest\bin\debug\eulerprojecttest.dll" id="c0bfa905-0dd8-b028-9368-236bbacb4f96">
+      <Execution id="eefbc5dc-f24d-48e5-b595-626e7280d172" />
+      <TestMethod codeBase="C:/Users/EJEAJOS/Documents/GitHub/EulerProject/EulerProjectTest/bin/Debug/EulerProjectTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EulerProjectTest.Problem1Test, EulerProjectTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SumMultiplesTest_Below1000" />
+    </UnitTest>
+    <UnitTest name="SumEvenFibonacciNumbers_BelowTen_Test" storage="c:\users\ejeajos\documents\github\eulerproject\eulerprojecttest\bin\debug\eulerprojecttest.dll" id="98f1647b-25fa-6d1c-9075-baab8a595509">
+      <Execution id="ed1129b9-905d-4c45-9cee-7885b112bc64" />
+      <TestMethod codeBase="C:/Users/EJEAJOS/Documents/GitHub/EulerProject/EulerProjectTest/bin/Debug/EulerProjectTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EulerProjectTest.Problem2Test, EulerProjectTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SumEvenFibonacciNumbers_BelowTen_Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1704ccca-9ca4-d6ed-0255-d2f53aa89a3b" executionId="297dd6b7-fed5-4ee9-bd75-669b442938e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="56b27b86-f8e3-2138-0ce1-fbcfcb027ef9" executionId="a599fa12-bfd1-44fb-bbfc-6a7fd444c048" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="98f1647b-25fa-6d1c-9075-baab8a595509" executionId="ed1129b9-905d-4c45-9cee-7885b112bc64" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c0bfa905-0dd8-b028-9368-236bbacb4f96" executionId="eefbc5dc-f24d-48e5-b595-626e7280d172" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e9e31b35-6659-e401-2314-39e202dd26e0" executionId="eb5c9266-00a7-46a4-b5bb-94ee1e107721" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="297dd6b7-fed5-4ee9-bd75-669b442938e0" testId="1704ccca-9ca4-d6ed-0255-d2f53aa89a3b" testName="SumEvenFibonacciNumbers_BelowHundred_Test" computerName="E76431509D484F" duration="00:00:20.6341802" startTime="2014-04-13T15:35:55.7866557-07:00" endTime="2014-04-13T15:36:16.4208359-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="297dd6b7-fed5-4ee9-bd75-669b442938e0">
+    </UnitTestResult>
+    <UnitTestResult executionId="a599fa12-bfd1-44fb-bbfc-6a7fd444c048" testId="56b27b86-f8e3-2138-0ce1-fbcfcb027ef9" testName="SumEvenFibonacciNumbers_BelowFourMil_Test" computerName="E76431509D484F" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a599fa12-bfd1-44fb-bbfc-6a7fd444c048">
+    </UnitTestResult>
+    <UnitTestResult executionId="ed1129b9-905d-4c45-9cee-7885b112bc64" testId="98f1647b-25fa-6d1c-9075-baab8a595509" testName="SumEvenFibonacciNumbers_BelowTen_Test" computerName="E76431509D484F" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ed1129b9-905d-4c45-9cee-7885b112bc64">
+    </UnitTestResult>
+    <UnitTestResult executionId="eefbc5dc-f24d-48e5-b595-626e7280d172" testId="c0bfa905-0dd8-b028-9368-236bbacb4f96" testName="SumMultiplesTest_Below1000" computerName="E76431509D484F" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eefbc5dc-f24d-48e5-b595-626e7280d172">
+    </UnitTestResult>
+    <UnitTestResult executionId="eb5c9266-00a7-46a4-b5bb-94ee1e107721" testId="e9e31b35-6659-e401-2314-39e202dd26e0" testName="SumMultiplesTest_Below10" computerName="E76431509D484F" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eb5c9266-00a7-46a4-b5bb-94ee1e107721">
+    </UnitTestResult>
+  </Results>
+</TestRun>

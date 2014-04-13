@@ -1,0 +1,10 @@
+c:\users\ejeajos\documents\visual studio 2010\Projects\EulerProject\EulerProject\bin\Debug\EulerProject.dll
+c:\users\ejeajos\documents\visual studio 2010\Projects\EulerProject\EulerProject\bin\Debug\EulerProject.pdb
+c:\users\ejeajos\documents\visual studio 2010\Projects\EulerProject\EulerProject\obj\Debug\ResolveAssemblyReference.cache
+c:\users\ejeajos\documents\visual studio 2010\Projects\EulerProject\EulerProject\obj\Debug\EulerProject.dll
+c:\users\ejeajos\documents\visual studio 2010\Projects\EulerProject\EulerProject\obj\Debug\EulerProject.pdb
+C:\Users\EJEAJOS\Documents\GitHub\EulerProject\EulerProject\bin\Debug\EulerProject.dll
+C:\Users\EJEAJOS\Documents\GitHub\EulerProject\EulerProject\bin\Debug\EulerProject.pdb
+C:\Users\EJEAJOS\Documents\GitHub\EulerProject\EulerProject\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\EJEAJOS\Documents\GitHub\EulerProject\EulerProject\obj\Debug\EulerProject.dll
+C:\Users\EJEAJOS\Documents\GitHub\EulerProject\EulerProject\obj\Debug\EulerProject.pdb

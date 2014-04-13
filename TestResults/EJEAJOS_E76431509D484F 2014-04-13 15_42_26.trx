@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="840ecea9-2f70-4842-9ad1-60f943d0a38d" name="EJEAJOS@E76431509D484F 2014-04-13 15:42:26" runUser="ERICSSON\EJEAJOS" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ec3d7df0-bd32-4fdb-a1dc-62042eae7c6d">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="EJEAJOS_E76431509D484F 2014-04-13 15_42_26">
+      <DeploymentItem filename="C:\Users\EJEAJOS\Documents\GitHub\EulerProject\EulerProject\bin\Debug\EulerProject.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-04-13T15:42:26.0509775-07:00" queuing="2014-04-13T15:42:28.9091410-07:00" start="2014-04-13T15:42:29.4321709-07:00" finish="2014-04-13T15:43:48.5986990-07:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="E76431509D484F" outcome="Error" timestamp="2014-04-13T15:43:48.5706974-07:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SumEvenFibonacciNumbers_BelowHundred_Test" storage="c:\users\ejeajos\documents\github\eulerproject\eulerprojecttest\bin\debug\eulerprojecttest.dll" id="1704ccca-9ca4-d6ed-0255-d2f53aa89a3b">
+      <Execution id="bff254e4-1518-4dac-b07a-8a05336126dd" />
+      <TestMethod codeBase="C:/Users/EJEAJOS/Documents/GitHub/EulerProject/EulerProjectTest/bin/Debug/EulerProjectTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EulerProjectTest.Problem2Test, EulerProjectTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SumEvenFibonacciNumbers_BelowHundred_Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1704ccca-9ca4-d6ed-0255-d2f53aa89a3b" executionId="bff254e4-1518-4dac-b07a-8a05336126dd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="bff254e4-1518-4dac-b07a-8a05336126dd" testId="1704ccca-9ca4-d6ed-0255-d2f53aa89a3b" testName="SumEvenFibonacciNumbers_BelowHundred_Test" computerName="E76431509D484F" duration="00:01:18.7065018" startTime="2014-04-13T15:42:29.8911971-07:00" endTime="2014-04-13T15:43:48.5976989-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bff254e4-1518-4dac-b07a-8a05336126dd">
+    </UnitTestResult>
+  </Results>
+</TestRun>
